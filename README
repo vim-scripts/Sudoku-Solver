@@ -1,0 +1,26 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1493
+
+Sudoku solver plugin
+
+Important: Vim 7.0 or later required.
+
+Sudoku is a puzzle where you have to fill all the blank spaces with digits from 1 to 9 such that no row, column, or 3x3 block of cells have any digits repeated. This plugin holds a Vim script that solves Sudoku puzzles by exhaustive search.
+
+Enter the puzzle into a buffer like this:
+
+    8xx 69x xx2
+    91x xxx xxx
+    5xx xx8 xx7
+
+    xxx 2x9 xx6
+    xxx 8xx xx3
+    2xx 3x4 xxx
+
+    3xx 78x xx9
+    xxx xxx xx5
+    4xx x5x x28
+
+The numbers represent supplied digits 1 to 9 in the puzzle. Use any other character to represent blank spaces.
+
+Then visually select the puzzle and invoke the macro binding ,s
+
